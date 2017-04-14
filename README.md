@@ -6,6 +6,9 @@
 
 [![codecov.io](http://codecov.io/github/etotheipluspi/POMDPReinforce.jl/coverage.svg?branch=master)](http://codecov.io/github/etotheipluspi/POMDPReinforce.jl?branch=master)
 
-This package wraps [POMDPs.jl]() problems into reinforcement learning environments with [Reinforce.jl]() interface. 
+This package wraps [POMDPs.jl](https://github.com/JuliaPOMDP/POMDPs.jl) problems into reinforcement learning environments with [Reinforce.jl](https://github.com/JuliaML/Reinforce.jl) interface. 
 This allows POMDP problems to be used with a variety of deep reinforcement learning algorithms. 
+
+## Quick Start
+
 
