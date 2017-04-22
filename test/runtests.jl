@@ -18,8 +18,8 @@ for (s, a, r, sp) in ep
     last_state = s
     last_reward = r
 end
-@test last_state == [9.0, 3.0, 0.0]
-@test last_reward == 10.0
+@test last_state == [8.0, 8.0, 0.0]
+@test last_reward == 3.0
 
 # Test POMDP env
 env = POMDPEnv(LightDark1D(), MersenneTwister(1))
@@ -31,7 +31,7 @@ for (o, a, r, op) in ep
     last_obs = o
     last_reward = r
 end
-@test_approx_eq_eps last_obs [-12.7051] 1e-3
-@test last_reward == -10.0
+@test_approx_eq_eps last_obs [7.53396] 1e-3
+@test last_reward == 10.0
 
 
