@@ -1,3 +1,7 @@
+# THIS PACKAGE IS DEPRECATED
+
+[Reinforce.jl](https://github.com/JuliaML/Reinforce.jl) is discontinued. Please reference [CommonRLInterface](https://github.com/JuliaReinforcementLearning/CommonRLInterface.jl).
+
 # POMDPReinforce
 
 [![Build Status](https://travis-ci.org/etotheipluspi/POMDPReinforce.jl.svg?branch=master)](https://travis-ci.org/etotheipluspi/POMDPReinforce.jl)
